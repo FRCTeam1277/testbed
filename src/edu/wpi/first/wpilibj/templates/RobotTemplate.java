@@ -66,7 +66,6 @@ public class RobotTemplate extends IterativeRobot{
      * This function is called periodically during operator control
      */
     public void teleopPeriodic() {
-        // This is a comment
         if (rightJoystick.getRawButton(4)) {
             driveMode = !driveMode;
             try {
